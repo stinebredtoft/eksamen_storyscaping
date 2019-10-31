@@ -31,10 +31,9 @@ infographicContainer{
 
 
 /*css-animation på overskrift snippet fra https://raw.githubusercontent.com/daneden/animate.css/master/animate.css*/
-.elementor-77 .elementor-element.elementor-element-d8ba98d .elementor-heading-title, .elementor-80 .elementor-element.elementor-element-087c4ba .elementor-heading-title{ 
-  -webkit-animation-name: zoomIn;
-  animation-name: zoomIn;
-    color: yellow;
+.zoom{
+  -webkit-animation: zoomIn 2s;
+  animation: zoomIn 2s;
 }
 
 @keyframes zoomIn {
